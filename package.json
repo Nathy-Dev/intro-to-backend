@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Nathy-Dev/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Nathy-Dev/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathy-Dev/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "NathyDev",
+  "type": "module", 
+  "main": "./backend/src/index.js",
+  "scripts": {
+    "start": "node ./backend/src/index.js",
+    "dev": "nodemon ./backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
