@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "NathyDev",
-  "type": "module", 
+  "type": "module",
   "main": "./backend/src/index.js",
   "scripts": {
     "start": "node ./backend/src/index.js",
@@ -23,5 +23,8 @@
     "express": "^5.2.1",
     "mongoose": "^9.0.2",
     "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
   }
 }
